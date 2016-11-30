@@ -1,7 +1,7 @@
 
 public class MathTest {
 	int x=10;
-	int y=20;
+	int y=50;
 
 	public int add(){
 		return  x+y;

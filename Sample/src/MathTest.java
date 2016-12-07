@@ -4,7 +4,7 @@ public class MathTest {
 	int y=50;
 
 	public int add(){
-		return  x+10+y;
+		return  x+y;
 	}
 	public int substract(){
 		return x-y;

@@ -16,15 +16,15 @@ import org.mockito.runners.MockitoJUnitRunner;
 @RunWith(MockitoJUnitRunner.class)
 public class MathAppTester {
 
-	/* //@InjectMocks annotation is used to create and inject the mock object
+	 //@InjectMocks annotation is used to create and inject the mock object
 	   @InjectMocks 
 	   MathApp mathApplication = new MathApp();
 	   //@Mock annotation is used to create the mock object to be injected
 	   @Mock
-	   CalcService calcService;*/
+	   CalcService calcService;
 	
-	private MathApp mathApplication;
-	   private CalcService calcService;
+	/*private MathApp mathApplication;
+	   private CalcService calcService;*/
 	   
 	   @Before
 	   public void setUp(){

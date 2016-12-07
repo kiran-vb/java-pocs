@@ -28,7 +28,7 @@ public class MathAppTester {
 	   
 	   @Before
 	   public void setUp(){
-		   mathApplication = new MathApp();
+		      mathApplication = new MathApp();
 		      calcService = Mockito.mock(CalcService.class);
 		      mathApplication.setCalculatorService(calcService);
 	   }

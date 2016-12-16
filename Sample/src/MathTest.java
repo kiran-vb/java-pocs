@@ -12,9 +12,15 @@ public class MathTest {
 		
 	}
 	
-public int mull(){
+    public int mull(){
 		
 		return x*y;
+		
+	}
+    
+   public int div(){
+		
+		return x/y;
 		
 	}
 }

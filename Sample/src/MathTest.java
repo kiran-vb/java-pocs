@@ -11,4 +11,10 @@ public class MathTest {
 		return x+x-y;
 		
 	}
+	
+public int mull(){
+		
+		return x*y;
+		
+	}
 }

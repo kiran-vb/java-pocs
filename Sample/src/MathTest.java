@@ -1,6 +1,6 @@
 
 public class MathTest {
-	int x=100;
+	int x=20000;
 	int y=100000;
 
 	public int add(){

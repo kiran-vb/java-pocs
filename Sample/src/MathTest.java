@@ -7,6 +7,8 @@ public class MathTest {
 		return  x+y;
 	}
 	public int substract(){
-		return x-y;
+		
+		return x+x-y;
+		
 	}
 }

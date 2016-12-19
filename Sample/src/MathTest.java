@@ -23,4 +23,10 @@ public class MathTest {
 		return x/y;
 		
 	}
+	
+	public int percentile(){
+		
+		return x%y;
+		
+	}
 }

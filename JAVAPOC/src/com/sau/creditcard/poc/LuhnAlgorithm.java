@@ -5,7 +5,8 @@ public class LuhnAlgorithm {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-   String card ="5346800014188796";
+  // String card ="5346800014188796"; //correct id
+		String card="5346800014188797";
      
 		int totCount=0;
 		int oddCount=0;
@@ -20,14 +21,14 @@ public class LuhnAlgorithm {
 			i++;
 		}
 		
-		System.out.println(totCount);
+		//System.out.println(totCount);
 		System.out.println(check(card));
 	}
 	   static int getsum(int n) {
 		   return n == 0 ? 0 : n % 10 + getsum(n/10);
 		}
 	   
-	   public static boolean check(String ccNumber)
+	   public static String check(String ccNumber)
 	    {
 	            int sum = 0;
 	            boolean alternate = false;
@@ -46,6 +47,7 @@ public class LuhnAlgorithm {
 	                    alternate = !alternate;
 	            }
 	            System.out.println(sum);
-	            return (sum % 10 == 0);
+	          //  return (sum % 10 == 0);
+	            return (sum % 10 == 0)? "Valid":"InValid";
 	    }
 }

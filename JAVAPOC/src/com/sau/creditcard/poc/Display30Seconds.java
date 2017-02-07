@@ -15,7 +15,7 @@ public class Display30Seconds {
 		dp30.frame.setSize(400,100);
 	
 		TimerTask timerTask = new TimerTask() {
-			int second = 5;
+			int second = 10;
 			@Override
 			public void run() {
 				print30Seconds();
@@ -31,7 +31,7 @@ public class Display30Seconds {
 		  Timer timer = new Timer(true);
 		  timer.scheduleAtFixedRate(timerTask, 0, 1*1000);
 		   try {
-	            Thread.sleep(3000);
+	            Thread.sleep(10000);
 	        } catch (InterruptedException e) {
 	            e.printStackTrace();
 	        }

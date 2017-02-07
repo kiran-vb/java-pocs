@@ -25,7 +25,7 @@ public class TimerFrame {
         
         new Timer().schedule(new TimerTask(){
 
-            int second = 60;
+            int second = 10;
             @Override
             public void run() {
                 frame.setTitle("Application will close in " + second-- + " seconds.");
@@ -33,7 +33,7 @@ public class TimerFrame {
         },0, 1000);
         
         try {
-            Thread.sleep(30000);
+            Thread.sleep(10000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

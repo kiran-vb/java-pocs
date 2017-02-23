@@ -12,7 +12,7 @@ import javax.swing.Timer;
 public class SwitchCheck {
 
 	public static void main(String[] args) throws Exception {
-		
+		String g="";
 		getTime();
 		char ch='1';
 	

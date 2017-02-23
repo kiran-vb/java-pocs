@@ -9,5 +9,7 @@
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="lib" path="C:/test/karthi/cc/opencsv-2.2.jar"/>
 	<classpathentry kind="lib" path="C:/test/karthi/cc/javacsv.jar"/>
+	<classpathentry kind="lib" path="C:/test/jars/gson-2.2.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-mongo"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

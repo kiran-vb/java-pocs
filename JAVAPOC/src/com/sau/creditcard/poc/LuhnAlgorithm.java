@@ -5,8 +5,8 @@ public class LuhnAlgorithm {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-  // String card ="5346800014188796"; //correct id
-		String card="5346800014188797";
+   String card ="5346800014188796"; //correct id
+	//	String card="4386800014184890";
      
 		int totCount=0;
 		int oddCount=0;
